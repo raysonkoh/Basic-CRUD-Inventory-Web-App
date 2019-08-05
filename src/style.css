@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.title {
+    border: 3px solid blue;
+    border-radius: 50%;
+    padding: 12px;
+    margin: 8px;
+    text-align: center;
+    color: white;
+    background: darkblue;
+}
+
+.btn,
+.btn-1 {
+    text-align: center;
+}
+
+.btn > button,
+.get,
+.clear {
+    width: 25%;
+    margin: 16px;
+    padding: 8px;
+}
+
+.form {
+    margin: auto;
+    width: 50%;
+    background: blue;
+}
+
+.input-name,
+.input-qty,
+.input-type,
+.submit {
+    display: block;
+    padding: 8px;
+    margin: 16px auto;
+    background: lightblue;
+    font-size: 16px;
+}
+
+.row {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.highlight {
+    border: 3px solid green;
+
+}
+
+.row > section {
+    display: inline-block;
+    background: grey;
+    border: 3px solid lightgrey;
+    width: 20%;
+}
